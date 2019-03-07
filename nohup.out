@@ -1,0 +1,1660 @@
+application.py:65: SyntaxWarning: name 'data_last' is used prior to global declaration
+  global data_last
+WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+application.py:65: SyntaxWarning: name 'data_last' is used prior to global declaration
+  global data_last
+WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+ * Debugger is active!
+ * Debugger PIN: 151-224-588
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET /static/img/energy-consumption-img.png HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:35] "GET /static/css/main.css HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:57:36] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:36] "GET /static/js/application.js HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:57:36] "GET /static/img/temp-hum.png HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:57:36] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:36] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:36] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:57:37] "GET /favicon.ico HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 10:58:33] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 10:58:35] "GET /climate HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:35] "GET /static/img/temp-icon.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:35] "GET /static/js/climate.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:35] "GET /static/img/humidity-icon.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:36] "GET /socket.io/?EIO=3&transport=polling&t=1551005915820-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:36] "POST /socket.io/?EIO=3&transport=polling&t=1551005916163-1&sid=0f0a1b3ae7df457fb8e899b1692bf503 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:36] "GET /socket.io/?EIO=3&transport=polling&t=1551005916171-2&sid=0f0a1b3ae7df457fb8e899b1692bf503 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:40] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:40] "GET /static/js/pwr.js HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:58:41] "GET /socket.io/?EIO=3&transport=polling&t=1551005920780-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:41] "POST /socket.io/?EIO=3&transport=polling&t=1551005921116-1&sid=875cbf35fb8740f2817cc087d1b34294 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:41] "GET /socket.io/?EIO=3&transport=polling&t=1551005921119-2&sid=875cbf35fb8740f2817cc087d1b34294 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:43] "GET /security HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:43] "GET /static/js/security.js HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:58:43] "GET /static/audio/alarm.mp3 HTTP/1.1" 304 -
+91.73.102.199 - - [24/Feb/2019 10:58:43] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+91.73.102.199 - - [24/Feb/2019 10:58:43] "GET /socket.io/?EIO=3&transport=polling&t=1551005923141-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:44] "POST /socket.io/?EIO=3&transport=polling&t=1551005923503-1&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:58:44] "GET /socket.io/?EIO=3&transport=polling&t=1551005923504-2&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:59:11] "POST /socket.io/?EIO=3&transport=polling&t=1551005951028-4&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:59:11] "GET /socket.io/?EIO=3&transport=polling&t=1551005923868-3&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:59:37] "GET /socket.io/?EIO=3&transport=polling&t=1551005916570-3&sid=0f0a1b3ae7df457fb8e899b1692bf503 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 10:59:37] "POST /socket.io/?EIO=3&transport=polling&t=1551005977063-6&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 10:59:37] "GET /socket.io/?EIO=3&transport=polling&t=1551005951483-5&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:00:03] "POST /socket.io/?EIO=3&transport=polling&t=1551006003055-8&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:00:03] "GET /socket.io/?EIO=3&transport=polling&t=1551005977466-7&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:00:29] "POST /socket.io/?EIO=3&transport=polling&t=1551006029044-10&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:00:29] "GET /socket.io/?EIO=3&transport=polling&t=1551006003501-9&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:00:55] "POST /socket.io/?EIO=3&transport=polling&t=1551006055067-12&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:00:55] "GET /socket.io/?EIO=3&transport=polling&t=1551006029486-11&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:01:25] "POST /socket.io/?EIO=3&transport=polling&t=1551006081046-14&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:01:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006055518-13&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:01:51] "POST /socket.io/?EIO=3&transport=polling&t=1551006110812-16&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:01:51] "GET /socket.io/?EIO=3&transport=polling&t=1551006085541-15&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:02:19] "POST /socket.io/?EIO=3&transport=polling&t=1551006136812-18&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:02:19] "GET /socket.io/?EIO=3&transport=polling&t=1551006111333-17&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:02:45] "POST /socket.io/?EIO=3&transport=polling&t=1551006164812-20&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:02:45] "GET /socket.io/?EIO=3&transport=polling&t=1551006138811-19&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:03:11] "POST /socket.io/?EIO=3&transport=polling&t=1551006190838-22&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:03:11] "GET /socket.io/?EIO=3&transport=polling&t=1551006165288-21&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:03:38] "POST /socket.io/?EIO=3&transport=polling&t=1551006216821-24&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:03:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006191323-23&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:01] "GET /security HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:01] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+91.73.102.199 - - [24/Feb/2019 11:04:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006240905-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:02] "POST /socket.io/?EIO=3&transport=polling&t=1551006241250-1&sid=2ad6137cd8644d1d92a43f1221c96459 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:02] "GET /socket.io/?EIO=3&transport=polling&t=1551006241252-2&sid=2ad6137cd8644d1d92a43f1221c96459 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:03] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:04] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:04:08] "GET /climate HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006247670-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:08] "POST /socket.io/?EIO=3&transport=polling&t=1551006247850-1&sid=b15e08bb6d4842ff8a6cc846e40b92f1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006247853-2&sid=b15e08bb6d4842ff8a6cc846e40b92f1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:10] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:10] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET /static/js/application.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:32] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:33] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:33] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:33] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:33] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:33] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:33] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:34] "GET /favicon.ico HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:04:38] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006218273-25&sid=333e8b0a1e0e48c692a1ffaf2d006670 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:04:39] "GET /static/js/pwr.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006279679-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:40] "POST /socket.io/?EIO=3&transport=polling&t=1551006280021-1&sid=3053b19868e644f7afc7166bce2e2da8 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:04:40] "GET /socket.io/?EIO=3&transport=polling&t=1551006280023-2&sid=3053b19868e644f7afc7166bce2e2da8 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:02] "GET /socket.io/?EIO=3&transport=polling&t=1551006241603-3&sid=2ad6137cd8644d1d92a43f1221c96459 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:05:05] "POST /socket.io/?EIO=3&transport=polling&t=1551006305367-4&sid=3053b19868e644f7afc7166bce2e2da8 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006280407-3&sid=3053b19868e644f7afc7166bce2e2da8 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006248218-3&sid=b15e08bb6d4842ff8a6cc846e40b92f1 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:05:26] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006327227-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:27] "POST /socket.io/?EIO=3&transport=polling&t=1551006327602-1&sid=c364ee94a9db4f878c27956eaceb979b HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006327606-2&sid=c364ee94a9db4f878c27956eaceb979b HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:53] "POST /socket.io/?EIO=3&transport=polling&t=1551006353367-4&sid=c364ee94a9db4f878c27956eaceb979b HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:05:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006327977-3&sid=c364ee94a9db4f878c27956eaceb979b HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006305740-5&sid=3053b19868e644f7afc7166bce2e2da8 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:06:07] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006367834-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:08] "POST /socket.io/?EIO=3&transport=polling&t=1551006368205-1&sid=e138ccf9d55e462797d82777bb219e53 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006368208-2&sid=e138ccf9d55e462797d82777bb219e53 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:23] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006383750-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:24] "POST /socket.io/?EIO=3&transport=polling&t=1551006384186-1&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006384187-2&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:49] "POST /socket.io/?EIO=3&transport=polling&t=1551006409369-4&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:49] "GET /socket.io/?EIO=3&transport=polling&t=1551006384551-3&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:06:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006353765-5&sid=c364ee94a9db4f878c27956eaceb979b HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:07:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006368567-3&sid=e138ccf9d55e462797d82777bb219e53 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:07:15] "POST /socket.io/?EIO=3&transport=polling&t=1551006435370-6&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:07:15] "GET /socket.io/?EIO=3&transport=polling&t=1551006409750-5&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:07:41] "POST /socket.io/?EIO=3&transport=polling&t=1551006461368-8&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:07:41] "GET /socket.io/?EIO=3&transport=polling&t=1551006435739-7&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:08:07] "POST /socket.io/?EIO=3&transport=polling&t=1551006487367-10&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:08:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006461732-9&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:08:33] "POST /socket.io/?EIO=3&transport=polling&t=1551006513367-12&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:08:33] "GET /socket.io/?EIO=3&transport=polling&t=1551006487758-11&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:08:59] "POST /socket.io/?EIO=3&transport=polling&t=1551006539367-14&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:08:59] "GET /socket.io/?EIO=3&transport=polling&t=1551006513734-13&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:25] "POST /socket.io/?EIO=3&transport=polling&t=1551006565369-16&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006539761-15&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:32] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:09:34] "GET /climate HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:34] "GET /static/js/climate.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:34] "GET /static/img/temp-icon.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:34] "GET /static/img/humidity-icon.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006574864-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:35] "POST /socket.io/?EIO=3&transport=polling&t=1551006575302-1&sid=f8d61eccb1314b2f82f55fffa7649d47 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006575303-2&sid=f8d61eccb1314b2f82f55fffa7649d47 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:51] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:09:52] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:10:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006565743-17&sid=56fbb288facb4c9e9541038566135802 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:10:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006575659-3&sid=f8d61eccb1314b2f82f55fffa7649d47 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:11:12] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006672968-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:13] "POST /socket.io/?EIO=3&transport=polling&t=1551006673334-1&sid=20323810c8b84295a7b08ef308b157cf HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006673337-2&sid=20323810c8b84295a7b08ef308b157cf HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:26] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006686971-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:27] "POST /socket.io/?EIO=3&transport=polling&t=1551006687353-1&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006687355-2&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:52] "POST /socket.io/?EIO=3&transport=polling&t=1551006712357-4&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:11:52] "GET /socket.io/?EIO=3&transport=polling&t=1551006687710-3&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:12:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006673709-3&sid=20323810c8b84295a7b08ef308b157cf HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:12:17] "POST /socket.io/?EIO=3&transport=polling&t=1551006737803-6&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:12:17] "GET /socket.io/?EIO=3&transport=polling&t=1551006712798-5&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:12:37] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:12:37] "GET /socket.io/?EIO=3&transport=polling&t=1551006757739-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:12:38] "POST /socket.io/?EIO=3&transport=polling&t=1551006758108-1&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:12:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006758113-2&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:03] "POST /socket.io/?EIO=3&transport=polling&t=1551006783113-4&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006758485-3&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:18] "GET /socket.io/?EIO=3&transport=polling&t=1551006738153-7&sid=4fd053f42a274c5fbf815acab0333411 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:13:28] "POST /socket.io/?EIO=3&transport=polling&t=1551006808492-6&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006783490-5&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:49] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:50] "GET /socket.io/?EIO=3&transport=polling&t=1551006829993-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:50] "POST /socket.io/?EIO=3&transport=polling&t=1551006830327-1&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:13:50] "GET /socket.io/?EIO=3&transport=polling&t=1551006830329-2&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:15] "POST /socket.io/?EIO=3&transport=polling&t=1551006855335-4&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:15] "GET /socket.io/?EIO=3&transport=polling&t=1551006830696-3&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:29] "GET /socket.io/?EIO=3&transport=polling&t=1551006809019-7&sid=18ece8e3b3a1462f828a6d17d2e727d9 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:14:40] "POST /socket.io/?EIO=3&transport=polling&t=1551006880722-6&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:40] "GET /socket.io/?EIO=3&transport=polling&t=1551006855716-5&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:52] "GET /temp/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:52] "GET /socket.io/?EIO=3&transport=polling&t=1551006881103-7&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:52] "GET /humidity/74 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:52] "GET /socket.io/?EIO=3&transport=polling&t=1551006892654-8&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:53] "GET /carbon_dioxide/98 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006893023-9&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:53] "GET /pwr/28 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006893375-10&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:53] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006893728-11&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:54] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:54] "GET /socket.io/?EIO=3&transport=polling&t=1551006894076-12&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:54] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:54] "GET /socket.io/?EIO=3&transport=polling&t=1551006894438-13&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:54] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:54] "GET /socket.io/?EIO=3&transport=polling&t=1551006894779-14&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:56] "GET /temp/100 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:56] "GET /socket.io/?EIO=3&transport=polling&t=1551006895159-15&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:14:56] "GET /temp/100 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:56] "GET /humidity/69 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:56] "GET /socket.io/?EIO=3&transport=polling&t=1551006896448-16&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:56] "GET /carbon_dioxide/68 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:57] "GET /socket.io/?EIO=3&transport=polling&t=1551006896840-17&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+159.203.81.93 - - [24/Feb/2019 11:14:57] "GET /humidity/69 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:57] "GET /pwr/24 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:57] "GET /socket.io/?EIO=3&transport=polling&t=1551006897194-18&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:57] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:57] "GET /socket.io/?EIO=3&transport=polling&t=1551006897546-19&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:57] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:58] "GET /socket.io/?EIO=3&transport=polling&t=1551006897908-20&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:58] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:58] "GET /socket.io/?EIO=3&transport=polling&t=1551006898260-21&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:58] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:58] "GET /socket.io/?EIO=3&transport=polling&t=1551006898598-22&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:59] "GET /temp/67 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:14:59] "GET /socket.io/?EIO=3&transport=polling&t=1551006898949-23&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:00] "GET /humidity/42 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006900253-24&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:00] "GET /carbon_dioxide/37 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006900636-25&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:01] "GET /pwr/99 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006901038-26&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:15:01] "GET /pwr/99 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:01] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006901401-27&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:01] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006901763-28&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:02] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:02] "GET /socket.io/?EIO=3&transport=polling&t=1551006902139-29&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:02] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:02] "GET /socket.io/?EIO=3&transport=polling&t=1551006902488-30&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:03] "GET /temp/91 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006902834-31&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:04] "GET /humidity/53 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006904177-32&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:04] "GET /carbon_dioxide/52 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006904554-33&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:05] "GET /pwr/81 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006904956-34&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:05] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006905350-35&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+159.203.196.79 - - [24/Feb/2019 11:15:05] "GET /pwr/81 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:05] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006905679-36&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:06] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:06] "GET /socket.io/?EIO=3&transport=polling&t=1551006906058-37&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:06] "POST /socket.io/?EIO=3&transport=polling&t=1551006906103-38&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:06] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:06] "GET /socket.io/?EIO=3&transport=polling&t=1551006906435-39&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:07] "GET /temp/37 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006906782-40&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:08] "GET /humidity/43 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006908089-41&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:08] "GET /carbon_dioxide/27 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006908481-42&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:15:08] "GET /carbon_dioxide/27 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:08] "GET /pwr/11 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006908842-43&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:09] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006909197-44&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:09] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006909555-45&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:10] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:10] "GET /socket.io/?EIO=3&transport=polling&t=1551006909930-46&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:10] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:10] "GET /socket.io/?EIO=3&transport=polling&t=1551006910309-47&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:11] "GET /temp/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:11] "GET /socket.io/?EIO=3&transport=polling&t=1551006910665-48&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:12] "GET /humidity/81 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:12] "GET /socket.io/?EIO=3&transport=polling&t=1551006912034-49&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:12] "GET /carbon_dioxide/77 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:12] "GET /socket.io/?EIO=3&transport=polling&t=1551006912408-50&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:15:12] "GET /humidity/81 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:12] "GET /pwr/80 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:12] "GET /socket.io/?EIO=3&transport=polling&t=1551006912785-51&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:13] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006913139-52&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:13] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006913499-53&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:13] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006913840-54&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:14] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:14] "GET /socket.io/?EIO=3&transport=polling&t=1551006914196-55&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:15] "GET /temp/56 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:15] "GET /socket.io/?EIO=3&transport=polling&t=1551006914538-56&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:15] "GET /humidity/30 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006915846-57&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:15:16] "GET /temp/56 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:16] "GET /carbon_dioxide/37 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006916223-58&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:16] "GET /pwr/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006916587-59&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:17] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:17] "GET /socket.io/?EIO=3&transport=polling&t=1551006916940-60&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:17] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:17] "GET /socket.io/?EIO=3&transport=polling&t=1551006917288-61&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:17] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:17] "GET /socket.io/?EIO=3&transport=polling&t=1551006917660-62&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:18] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:18] "GET /socket.io/?EIO=3&transport=polling&t=1551006918039-63&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:20] "GET /temp/20 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006918419-64&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:20] "GET /humidity/62 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006920246-65&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:20] "GET /carbon_dioxide/67 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006920635-66&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:21] "GET /pwr/35 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:21] "GET /socket.io/?EIO=3&transport=polling&t=1551006920995-67&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:15:21] "GET /carbon_dioxide/67 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:21] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:21] "GET /socket.io/?EIO=3&transport=polling&t=1551006921365-68&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:21] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:21] "GET /socket.io/?EIO=3&transport=polling&t=1551006921731-69&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:22] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:22] "GET /socket.io/?EIO=3&transport=polling&t=1551006922088-70&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:22] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:22] "GET /socket.io/?EIO=3&transport=polling&t=1551006922445-71&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:23] "GET /temp/24 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006922808-72&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:24] "GET /humidity/100 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006924128-73&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:24] "GET /carbon_dioxide/73 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006924503-74&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:25] "GET /pwr/79 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006924845-75&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:25] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006925238-76&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:25] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006925635-77&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:26] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:26] "GET /socket.io/?EIO=3&transport=polling&t=1551006925996-78&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:26] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:26] "GET /socket.io/?EIO=3&transport=polling&t=1551006926360-79&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:27] "GET /temp/92 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006926720-80&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:28] "GET /humidity/83 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006928042-81&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:28] "GET /carbon_dioxide/51 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006928406-82&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:28] "GET /pwr/10 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006928772-83&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:29] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:29] "GET /socket.io/?EIO=3&transport=polling&t=1551006929150-84&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:29] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:29] "GET /socket.io/?EIO=3&transport=polling&t=1551006929524-85&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:30] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006929890-86&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:30] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006930276-87&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:31] "GET /temp/96 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:31] "GET /socket.io/?EIO=3&transport=polling&t=1551006930676-88&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:31] "POST /socket.io/?EIO=3&transport=polling&t=1551006931784-89&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006931927-90&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:32] "GET /humidity/30 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:32] "GET /carbon_dioxide/65 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006932298-91&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:32] "GET /pwr/93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006932685-92&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:33] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:33] "GET /socket.io/?EIO=3&transport=polling&t=1551006933062-93&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:33] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:33] "GET /socket.io/?EIO=3&transport=polling&t=1551006933443-94&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:33] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:33] "GET /socket.io/?EIO=3&transport=polling&t=1551006933814-95&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:34] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006934182-96&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:35] "GET /temp/39 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006934567-97&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /humidity/86 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006935961-98&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+162.243.69.215 - - [24/Feb/2019 11:15:36] "GET /humidity/86 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /carbon_dioxide/15 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006936370-99&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /pwr/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006936715-100&sid=bda209922446406d91edd2aa873b0147 HTTP/1.1" 200 -
+159.203.42.143 - - [24/Feb/2019 11:15:37] "GET /pwr/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /static/js/pwr.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:37] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:38] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:38] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:38] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006938680-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:39] "POST /socket.io/?EIO=3&transport=polling&t=1551006939076-1&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006939077-2&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:39] "GET /temp/18 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006939444-3&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:15:40] "GET /temp/18 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:40] "GET /humidity/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:40] "GET /socket.io/?EIO=3&transport=polling&t=1551006940007-4&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:40] "GET /carbon_dioxide/78 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:40] "GET /socket.io/?EIO=3&transport=polling&t=1551006940382-5&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:40] "GET /pwr/10 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:40] "GET /socket.io/?EIO=3&transport=polling&t=1551006940755-6&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+159.203.196.79 - - [24/Feb/2019 11:15:40] "GET /carbon_dioxide/78 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:41] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:41] "GET /socket.io/?EIO=3&transport=polling&t=1551006941154-7&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:41] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:41] "GET /socket.io/?EIO=3&transport=polling&t=1551006941519-8&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:42] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:42] "GET /socket.io/?EIO=3&transport=polling&t=1551006941881-9&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:42] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:42] "GET /socket.io/?EIO=3&transport=polling&t=1551006942254-10&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:43] "GET /temp/77 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:43] "GET /socket.io/?EIO=3&transport=polling&t=1551006942623-11&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:44] "GET /humidity/49 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:44] "GET /socket.io/?EIO=3&transport=polling&t=1551006943967-12&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+159.203.81.93 - - [24/Feb/2019 11:15:44] "GET /humidity/49 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:44] "GET /carbon_dioxide/95 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:44] "GET /socket.io/?EIO=3&transport=polling&t=1551006944330-13&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:44] "GET /pwr/59 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:44] "GET /socket.io/?EIO=3&transport=polling&t=1551006944705-14&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:45] "GET /motion/True HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:15:45] "GET /pwr/59 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:45] "GET /socket.io/?EIO=3&transport=polling&t=1551006945064-15&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:45] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:45] "GET /socket.io/?EIO=3&transport=polling&t=1551006945420-16&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:45] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:45] "GET /socket.io/?EIO=3&transport=polling&t=1551006945805-17&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:46] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:46] "GET /socket.io/?EIO=3&transport=polling&t=1551006946171-18&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:47] "GET /temp/82 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:47] "GET /socket.io/?EIO=3&transport=polling&t=1551006946514-19&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:47] "GET /humidity/34 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:47] "GET /socket.io/?EIO=3&transport=polling&t=1551006947759-20&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:48] "GET /carbon_dioxide/64 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:48] "GET /socket.io/?EIO=3&transport=polling&t=1551006948158-21&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:48] "GET /pwr/16 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:48] "GET /socket.io/?EIO=3&transport=polling&t=1551006948528-22&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:49] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:49] "GET /socket.io/?EIO=3&transport=polling&t=1551006948891-23&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:15:49] "GET /pwr/16 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:49] "GET /socket.io/?EIO=3&transport=polling&t=1551006949250-24&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:49] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:49] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:49] "GET /socket.io/?EIO=3&transport=polling&t=1551006949621-25&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:50] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:50] "GET /socket.io/?EIO=3&transport=polling&t=1551006949994-26&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:51] "GET /temp/18 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:51] "GET /socket.io/?EIO=3&transport=polling&t=1551006950340-27&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:51] "GET /humidity/72 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:51] "GET /socket.io/?EIO=3&transport=polling&t=1551006951676-28&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:52] "GET /carbon_dioxide/46 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:52] "GET /socket.io/?EIO=3&transport=polling&t=1551006952047-29&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:52] "GET /pwr/95 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:52] "GET /socket.io/?EIO=3&transport=polling&t=1551006952409-30&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:15:52] "GET /carbon_dioxide/46 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:52] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:52] "GET /socket.io/?EIO=3&transport=polling&t=1551006952754-31&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:53] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006953127-32&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:53] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:53] "GET /socket.io/?EIO=3&transport=polling&t=1551006953489-33&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:54] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:54] "GET /socket.io/?EIO=3&transport=polling&t=1551006953843-34&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:55] "GET /temp/28 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:55] "GET /socket.io/?EIO=3&transport=polling&t=1551006954207-35&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:55] "GET /humidity/36 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:55] "GET /socket.io/?EIO=3&transport=polling&t=1551006955572-36&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:56] "GET /carbon_dioxide/60 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:56] "GET /socket.io/?EIO=3&transport=polling&t=1551006955931-37&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+159.203.196.79 - - [24/Feb/2019 11:15:56] "GET /humidity/36 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:15:56] "GET /carbon_dioxide/60 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:56] "GET /pwr/88 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:56] "GET /socket.io/?EIO=3&transport=polling&t=1551006956316-38&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:56] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:56] "GET /socket.io/?EIO=3&transport=polling&t=1551006956689-39&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:57] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:57] "GET /socket.io/?EIO=3&transport=polling&t=1551006957049-40&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:57] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:57] "GET /socket.io/?EIO=3&transport=polling&t=1551006957400-41&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:57] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:57] "GET /socket.io/?EIO=3&transport=polling&t=1551006957757-42&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /temp/43 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /socket.io/?EIO=3&transport=polling&t=1551006958129-43&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /humidity/95 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /socket.io/?EIO=3&transport=polling&t=1551006959456-44&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /carbon_dioxide/29 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:15:59] "GET /socket.io/?EIO=3&transport=polling&t=1551006959823-45&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006959474-0 HTTP/1.1" 200 -
+159.203.196.79 - - [24/Feb/2019 11:16:00] "GET /humidity/95 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006960164-46&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /pwr/22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "POST /socket.io/?EIO=3&transport=polling&t=1551006959658-1&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006959663-2&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006960528-47&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:00] "GET /socket.io/?EIO=3&transport=polling&t=1551006960032-3&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006960893-48&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006960391-4&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006961277-49&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006960730-5&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006961675-50&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:01] "GET /socket.io/?EIO=3&transport=polling&t=1551006961094-6&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /temp/64 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006961452-7&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006962051-51&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /humidity/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006962722-8&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006963401-52&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /carbon_dioxide/68 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006963780-53&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:03] "GET /socket.io/?EIO=3&transport=polling&t=1551006963089-9&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /pwr/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006963450-10&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006964133-54&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "POST /socket.io/?EIO=3&transport=polling&t=1551006964368-55&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006963806-11&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006964476-56&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:04] "GET /socket.io/?EIO=3&transport=polling&t=1551006964154-12&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006964842-57&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006964517-13&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006965222-58&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006964852-14&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:05] "GET /socket.io/?EIO=3&transport=polling&t=1551006965597-59&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:06] "GET /temp/98 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:06] "GET /socket.io/?EIO=3&transport=polling&t=1551006965214-15&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:06] "GET /socket.io/?EIO=3&transport=polling&t=1551006965947-60&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:07] "GET /humidity/68 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006966516-16&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006967198-61&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:07] "GET /carbon_dioxide/56 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006966881-17&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:07] "GET /socket.io/?EIO=3&transport=polling&t=1551006967572-62&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:16:08] "GET /carbon_dioxide/56 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /pwr/71 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006967334-18&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006968003-63&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006967690-19&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006968401-64&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006968043-20&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:08] "GET /socket.io/?EIO=3&transport=polling&t=1551006968761-65&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:09] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006968366-21&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006969144-66&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:09] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006968723-22&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:09] "GET /socket.io/?EIO=3&transport=polling&t=1551006969496-67&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:10] "GET /temp/91 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:10] "GET /socket.io/?EIO=3&transport=polling&t=1551006969054-23&sid=5e1e0447c7e64af494980467f9d7abb3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:10] "GET /socket.io/?EIO=3&transport=polling&t=1551006969885-68&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:11] "GET /humidity/53 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:11] "GET /socket.io/?EIO=3&transport=polling&t=1551006971058-69&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:11] "GET /carbon_dioxide/67 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:11] "GET /socket.io/?EIO=3&transport=polling&t=1551006971399-70&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+159.203.196.79 - - [24/Feb/2019 11:16:11] "GET /humidity/53 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:11] "GET /pwr/97 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:11] "GET /socket.io/?EIO=3&transport=polling&t=1551006971780-71&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:12] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:12] "GET /socket.io/?EIO=3&transport=polling&t=1551006972133-72&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:12] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:12] "GET /socket.io/?EIO=3&transport=polling&t=1551006972485-73&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:12] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006972873-74&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:13] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:13] "GET /socket.io/?EIO=3&transport=polling&t=1551006973223-75&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:14] "GET /temp/35 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:14] "GET /socket.io/?EIO=3&transport=polling&t=1551006973577-76&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:14] "GET /energy HTTP/1.1" 200 -
+162.243.69.215 - - [24/Feb/2019 11:16:14] "GET /temp/35 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:14] "GET /humidity/38 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:14] "GET /socket.io/?EIO=3&transport=polling&t=1551006974796-77&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /static/js/pwr.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /carbon_dioxide/29 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /socket.io/?EIO=3&transport=polling&t=1551006975158-78&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /pwr/24 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:15] "GET /socket.io/?EIO=3&transport=polling&t=1551006975504-79&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006975980-80&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006975423-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006976370-81&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "POST /socket.io/?EIO=3&transport=polling&t=1551006975768-1&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006975771-2&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006976123-3&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:16] "GET /socket.io/?EIO=3&transport=polling&t=1551006976785-82&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:17] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:17] "GET /socket.io/?EIO=3&transport=polling&t=1551006976452-4&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:17] "GET /socket.io/?EIO=3&transport=polling&t=1551006977170-83&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:18] "GET /temp/59 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:18] "GET /socket.io/?EIO=3&transport=polling&t=1551006976811-5&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:18] "GET /socket.io/?EIO=3&transport=polling&t=1551006977553-84&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:18] "GET /humidity/33 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:18] "GET /socket.io/?EIO=3&transport=polling&t=1551006978012-6&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:18] "GET /socket.io/?EIO=3&transport=polling&t=1551006978680-85&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /carbon_dioxide/18 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /socket.io/?EIO=3&transport=polling&t=1551006978367-7&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /socket.io/?EIO=3&transport=polling&t=1551006979045-86&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+162.243.69.215 - - [24/Feb/2019 11:16:19] "GET /carbon_dioxide/18 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /socket.io/?EIO=3&transport=polling&t=1551006978740-8&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /pwr/82 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /socket.io/?EIO=3&transport=polling&t=1551006979431-87&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:19] "GET /socket.io/?EIO=3&transport=polling&t=1551006979090-9&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006979794-88&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006979455-10&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006980298-89&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006979813-11&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /socket.io/?EIO=3&transport=polling&t=1551006980670-90&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:20] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:21] "GET /socket.io/?EIO=3&transport=polling&t=1551006980183-12&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:21] "GET /socket.io/?EIO=3&transport=polling&t=1551006981036-91&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:22] "GET /temp/42 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:22] "GET /socket.io/?EIO=3&transport=polling&t=1551006980539-13&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:22] "GET /socket.io/?EIO=3&transport=polling&t=1551006981403-92&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:22] "GET /humidity/14 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:22] "GET /socket.io/?EIO=3&transport=polling&t=1551006981856-14&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:22] "GET /socket.io/?EIO=3&transport=polling&t=1551006982532-93&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /carbon_dioxide/62 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006982235-15&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006982917-94&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /pwr/11 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006982609-16&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006983295-95&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006983069-17&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:23] "GET /socket.io/?EIO=3&transport=polling&t=1551006983755-96&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006983435-18&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006984145-97&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006983775-19&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006984509-98&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:24] "GET /socket.io/?EIO=3&transport=polling&t=1551006984143-20&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:25] "GET /socket.io/?EIO=3&transport=polling&t=1551006984854-99&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:26] "GET /temp/88 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:26] "GET /socket.io/?EIO=3&transport=polling&t=1551006984523-21&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:26] "GET /socket.io/?EIO=3&transport=polling&t=1551006985205-100&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:26] "GET /humidity/79 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:26] "GET /socket.io/?EIO=3&transport=polling&t=1551006985885-22&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:26] "GET /socket.io/?EIO=3&transport=polling&t=1551006986562-101&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /carbon_dioxide/57 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006986234-23&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006986947-102&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /pwr/50 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006986570-24&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006987286-103&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006986932-25&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:27] "GET /socket.io/?EIO=3&transport=polling&t=1551006987642-104&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006987293-26&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006988013-105&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006987658-27&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006988379-106&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006988008-28&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:28] "GET /socket.io/?EIO=3&transport=polling&t=1551006988740-107&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /temp/33 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006988370-29&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006989099-108&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /humidity/32 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006989682-30&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006990365-109&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "POST /socket.io/?EIO=3&transport=polling&t=1551006990367-110&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /carbon_dioxide/83 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006990048-31&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:30] "GET /socket.io/?EIO=3&transport=polling&t=1551006990716-111&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /pwr/52 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /socket.io/?EIO=3&transport=polling&t=1551006990420-32&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /socket.io/?EIO=3&transport=polling&t=1551006991120-112&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /socket.io/?EIO=3&transport=polling&t=1551006990807-33&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /socket.io/?EIO=3&transport=polling&t=1551006991485-113&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:31] "GET /socket.io/?EIO=3&transport=polling&t=1551006991172-34&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006991885-114&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006991527-35&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006992251-115&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006991890-36&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:32] "GET /socket.io/?EIO=3&transport=polling&t=1551006992630-116&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /temp/85 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006992249-37&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006992995-117&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /humidity/34 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006993585-38&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006994257-118&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /carbon_dioxide/15 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006993963-39&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:34] "GET /socket.io/?EIO=3&transport=polling&t=1551006994657-119&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /pwr/49 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006994371-40&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006995041-120&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006994727-41&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006995408-121&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006995088-42&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:35] "GET /socket.io/?EIO=3&transport=polling&t=1551006995784-122&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:36] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006996137-123&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006995446-43&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:36] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006995813-44&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:36] "GET /socket.io/?EIO=3&transport=polling&t=1551006996498-124&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:37] "GET /temp/98 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:37] "GET /socket.io/?EIO=3&transport=polling&t=1551006996166-45&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:37] "GET /socket.io/?EIO=3&transport=polling&t=1551006996842-125&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:38] "GET /humidity/15 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006997447-46&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006998116-126&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:38] "GET /carbon_dioxide/39 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006997835-47&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:38] "GET /socket.io/?EIO=3&transport=polling&t=1551006998515-127&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /pwr/79 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006998211-48&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006998889-128&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006998607-49&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006999287-129&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006999013-50&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:39] "GET /socket.io/?EIO=3&transport=polling&t=1551006999691-130&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /socket.io/?EIO=3&transport=polling&t=1551006999405-51&sid=9055587a80774dffb791b2660c4594c5 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /socket.io/?EIO=3&transport=polling&t=1551007000091-131&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /socket.io/?EIO=3&transport=polling&t=1551007000490-132&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /static/js/application.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:40] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:41] "GET /temp/75 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:41] "GET /socket.io/?EIO=3&transport=polling&t=1551007000836-133&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:42] "GET /humidity/71 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:42] "GET /socket.io/?EIO=3&transport=polling&t=1551007002212-134&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:42] "GET /climate HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:42] "GET /carbon_dioxide/23 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:42] "GET /socket.io/?EIO=3&transport=polling&t=1551007002596-135&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:16:43] "GET /carbon_dioxide/23 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /static/js/climate.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /static/img/temp-icon.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /static/img/humidity-icon.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /pwr/74 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /socket.io/?EIO=3&transport=polling&t=1551007002955-136&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /socket.io/?EIO=3&transport=polling&t=1551007002740-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /socket.io/?EIO=3&transport=polling&t=1551007003382-137&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "POST /socket.io/?EIO=3&transport=polling&t=1551007003112-1&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /socket.io/?EIO=3&transport=polling&t=1551007003114-2&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:43] "GET /socket.io/?EIO=3&transport=polling&t=1551007003794-138&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:44] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:44] "GET /socket.io/?EIO=3&transport=polling&t=1551007003486-3&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:44] "GET /socket.io/?EIO=3&transport=polling&t=1551007004164-139&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:44] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:44] "GET /socket.io/?EIO=3&transport=polling&t=1551007003842-4&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:44] "GET /socket.io/?EIO=3&transport=polling&t=1551007004556-140&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:45] "GET /temp/99 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:45] "GET /socket.io/?EIO=3&transport=polling&t=1551007004179-5&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:45] "GET /socket.io/?EIO=3&transport=polling&t=1551007004921-141&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:46] "GET /humidity/22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:46] "GET /socket.io/?EIO=3&transport=polling&t=1551007005536-6&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:46] "GET /socket.io/?EIO=3&transport=polling&t=1551007006228-142&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:46] "GET /carbon_dioxide/92 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:46] "GET /socket.io/?EIO=3&transport=polling&t=1551007005915-7&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:46] "GET /socket.io/?EIO=3&transport=polling&t=1551007006607-143&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /pwr/48 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /socket.io/?EIO=3&transport=polling&t=1551007006277-8&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /socket.io/?EIO=3&transport=polling&t=1551007006969-144&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /socket.io/?EIO=3&transport=polling&t=1551007006632-9&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /socket.io/?EIO=3&transport=polling&t=1551007007327-145&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+138.197.202.197 - - [24/Feb/2019 11:16:47] "GET /pwr/48 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /socket.io/?EIO=3&transport=polling&t=1551007006973-10&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:47] "GET /socket.io/?EIO=3&transport=polling&t=1551007007690-146&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007007330-11&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007008077-147&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007007690-12&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007008437-148&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007008050-13&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:49] "GET /temp/19 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:49] "GET /socket.io/?EIO=3&transport=polling&t=1551007008409-14&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:49] "GET /socket.io/?EIO=3&transport=polling&t=1551007008806-149&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:50] "GET /humidity/16 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:50] "GET /socket.io/?EIO=3&transport=polling&t=1551007009515-15&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:50] "GET /socket.io/?EIO=3&transport=polling&t=1551007010207-150&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:50] "GET /carbon_dioxide/57 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:50] "GET /socket.io/?EIO=3&transport=polling&t=1551007009896-16&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:50] "GET /socket.io/?EIO=3&transport=polling&t=1551007010575-151&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /pwr/97 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007010256-17&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007010958-152&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007010648-18&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007011349-153&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007011049-19&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007011732-154&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:52] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007011412-20&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007012120-155&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:52] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007011773-21&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007012500-156&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /temp/95 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007012172-22&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007012877-157&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /humidity/93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007013527-23&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007014199-158&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /carbon_dioxide/44 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007013895-24&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007014606-159&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /pwr/63 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007014263-25&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007014983-160&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007014634-26&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007015319-161&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007014978-27&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007015681-162&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /socket.io/?EIO=3&transport=polling&t=1551007015356-28&sid=6f9b2c2c29c449bcaf8e07676b54eb22 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /socket.io/?EIO=3&transport=polling&t=1551007016044-163&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /security HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "POST /socket.io/?EIO=3&transport=polling&t=1551007016367-164&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /socket.io/?EIO=3&transport=polling&t=1551007016424-165&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:56] "GET /security HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /static/js/security.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /static/audio/alarm.mp3 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /socket.io/?EIO=3&transport=polling&t=1551007016585-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "POST /socket.io/?EIO=3&transport=polling&t=1551007016939-1&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /socket.io/?EIO=3&transport=polling&t=1551007016941-2&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /temp/29 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:57] "GET /socket.io/?EIO=3&transport=polling&t=1551007016781-166&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:58] "GET /socket.io/?EIO=3&transport=polling&t=1551007017348-3&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:58] "GET /humidity/50 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:16:58] "GET /socket.io/?EIO=3&transport=polling&t=1551007018093-167&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /socket.io/?EIO=3&transport=polling&t=1551007017715-4&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /carbon_dioxide/25 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /socket.io/?EIO=3&transport=polling&t=1551007018476-168&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /socket.io/?EIO=3&transport=polling&t=1551007021075-5&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /pwr/46 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /socket.io/?EIO=3&transport=polling&t=1551007021875-169&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:01] "GET /socket.io/?EIO=3&transport=polling&t=1551007021328-6&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:02] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:02] "GET /socket.io/?EIO=3&transport=polling&t=1551007022167-170&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:02] "GET /socket.io/?EIO=3&transport=polling&t=1551007021528-7&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:02] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:02] "GET /socket.io/?EIO=3&transport=polling&t=1551007022540-171&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:02] "GET /socket.io/?EIO=3&transport=polling&t=1551007021892-8&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /socket.io/?EIO=3&transport=polling&t=1551007022882-172&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /socket.io/?EIO=3&transport=polling&t=1551007022257-9&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /socket.io/?EIO=3&transport=polling&t=1551007023240-173&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:03] "GET /socket.io/?EIO=3&transport=polling&t=1551007022612-10&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:04] "GET /temp/96 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:04] "GET /socket.io/?EIO=3&transport=polling&t=1551007023029-11&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:04] "GET /socket.io/?EIO=3&transport=polling&t=1551007023606-174&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+107.170.96.6 - - [24/Feb/2019 11:17:04] "GET /temp/96 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /socket.io/?EIO=3&transport=polling&t=1551007024295-12&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /socket.io/?EIO=3&transport=polling&t=1551007024978-175&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /humidity/86 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /socket.io/?EIO=3&transport=polling&t=1551007024652-13&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /carbon_dioxide/36 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /socket.io/?EIO=3&transport=polling&t=1551007025358-176&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:05] "GET /socket.io/?EIO=3&transport=polling&t=1551007025008-14&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /pwr/27 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /socket.io/?EIO=3&transport=polling&t=1551007025760-177&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /socket.io/?EIO=3&transport=polling&t=1551007025368-15&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /socket.io/?EIO=3&transport=polling&t=1551007026237-178&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /socket.io/?EIO=3&transport=polling&t=1551007025726-16&sid=b0bb60cf7b724ecb8cc7b944dca77f93 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /socket.io/?EIO=3&transport=polling&t=1551007026575-179&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:06] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:17:07] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:07] "GET /socket.io/?EIO=3&transport=polling&t=1551007026957-180&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:07] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:17:07] "GET /socket.io/?EIO=3&transport=polling&t=1551007027327-181&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:00] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:01] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:01] "GET /static/js/application.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:01] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:02] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:02] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:02] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:04] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:04] "GET /static/js/pwr.js HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:07] "GET /socket.io/?EIO=3&transport=polling&t=1551007027676-182&sid=5b815e54b302463bb9db4c95b1826cb1 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:18:11] "GET /socket.io/?EIO=3&transport=polling&t=1551007090256-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:11] "POST /socket.io/?EIO=3&transport=polling&t=1551007090762-1&sid=25048b24b52a4cd6910526319c8366e2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:11] "GET /socket.io/?EIO=3&transport=polling&t=1551007090766-2&sid=25048b24b52a4cd6910526319c8366e2 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:22] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:23] "GET /socket.io/?EIO=3&transport=polling&t=1551007102258-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:23] "POST /socket.io/?EIO=3&transport=polling&t=1551007102710-1&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:23] "GET /socket.io/?EIO=3&transport=polling&t=1551007102711-2&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:48] "POST /socket.io/?EIO=3&transport=polling&t=1551007127716-4&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:18:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007103253-3&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:12] "GET /socket.io/?EIO=3&transport=polling&t=1551007091175-3&sid=25048b24b52a4cd6910526319c8366e2 HTTP/1.1" 400 -
+91.73.102.199 - - [24/Feb/2019 11:19:14] "POST /socket.io/?EIO=3&transport=polling&t=1551007153203-6&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:14] "GET /socket.io/?EIO=3&transport=polling&t=1551007128200-5&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:21] "GET / HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:21] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.102.199 - - [24/Feb/2019 11:19:25] "GET /energy HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:26] "GET /socket.io/?EIO=3&transport=polling&t=1551007165335-0 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:26] "POST /socket.io/?EIO=3&transport=polling&t=1551007165758-1&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:26] "GET /socket.io/?EIO=3&transport=polling&t=1551007165762-2&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /temp/13 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007166302-3&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007153691-7&sid=ff69620c25f84d51891b5d75853e90ef HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /humidity/36 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007187814-4&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /carbon_dioxide/17 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:48] "GET /socket.io/?EIO=3&transport=polling&t=1551007188170-5&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:49] "GET /pwr/54 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:49] "GET /socket.io/?EIO=3&transport=polling&t=1551007188526-6&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:49] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:49] "GET /socket.io/?EIO=3&transport=polling&t=1551007188886-7&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:49] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:49] "GET /socket.io/?EIO=3&transport=polling&t=1551007189244-8&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:50] "GET /windows/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:50] "GET /socket.io/?EIO=3&transport=polling&t=1551007189602-9&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:50] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:50] "GET /socket.io/?EIO=3&transport=polling&t=1551007189964-10&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:51] "POST /socket.io/?EIO=3&transport=polling&t=1551007190863-12&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:51] "GET /socket.io/?EIO=3&transport=polling&t=1551007190324-11&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:52] "GET /temp/57 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007191213-13&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:52] "GET /humidity/73 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007191670-14&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:52] "GET /carbon_dioxide/21 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:52] "GET /socket.io/?EIO=3&transport=polling&t=1551007192051-15&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:53] "GET /pwr/97 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:53] "GET /socket.io/?EIO=3&transport=polling&t=1551007192406-16&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:53] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:53] "GET /socket.io/?EIO=3&transport=polling&t=1551007192767-17&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:53] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:53] "GET /socket.io/?EIO=3&transport=polling&t=1551007193118-18&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:54] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007193462-19&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:54] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:54] "GET /socket.io/?EIO=3&transport=polling&t=1551007193814-20&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:55] "GET /temp/96 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:55] "GET /socket.io/?EIO=3&transport=polling&t=1551007194174-21&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:56] "GET /humidity/82 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:56] "GET /socket.io/?EIO=3&transport=polling&t=1551007195481-22&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:56] "GET /carbon_dioxide/96 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:56] "GET /socket.io/?EIO=3&transport=polling&t=1551007195836-23&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:56] "GET /pwr/69 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:56] "GET /socket.io/?EIO=3&transport=polling&t=1551007196175-24&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:57] "GET /motion/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:57] "GET /socket.io/?EIO=3&transport=polling&t=1551007196538-25&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:57] "GET /intruder/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:57] "GET /socket.io/?EIO=3&transport=polling&t=1551007196892-26&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:57] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:57] "GET /socket.io/?EIO=3&transport=polling&t=1551007197256-27&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:58] "GET /leak/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:58] "GET /socket.io/?EIO=3&transport=polling&t=1551007197614-28&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:59] "GET /temp/37 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:19:59] "GET /socket.io/?EIO=3&transport=polling&t=1551007197961-29&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+159.203.42.143 - - [24/Feb/2019 11:20:00] "GET /temp/37 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:00] "GET /socket.io/?EIO=3&transport=polling&t=1551007199316-30&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:00] "GET /humidity/67 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:00] "GET /socket.io/?EIO=3&transport=polling&t=1551007199648-31&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:00] "GET /carbon_dioxide/64 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:00] "GET /socket.io/?EIO=3&transport=polling&t=1551007199995-32&sid=e5eaa19944994741917d9eb52b59ba26 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:00] "GET /pwr/16 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:01] "GET /motion/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:01] "GET /intruder/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:01] "GET /windows/False HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:02] "GET /leak/True HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:03] "GET /temp/42 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:03] "GET /humidity/14 HTTP/1.1" 200 -
+91.73.102.199 - - [24/Feb/2019 11:20:04] "GET /carbon_dioxide/79 HTTP/1.1" 200 -
+159.203.196.79 - - [24/Feb/2019 11:20:04] "GET /carbon_dioxide/79 HTTP/1.1" 200 -
+80.82.77.139 - - [24/Feb/2019 13:17:25] "GET / HTTP/1.1" 200 -
+80.82.77.139 - - [24/Feb/2019 13:17:25] "GET /favicon.ico HTTP/1.1" 404 -
+141.98.80.29 - - [24/Feb/2019 16:28:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+141.98.80.29 - - [24/Feb/2019 16:28:37] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+91.73.126.71 - - [24/Feb/2019 18:13:47] "GET / HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:47] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/js/application.js HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:48] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:13:49] "GET /favicon.ico HTTP/1.1" 404 -
+91.73.126.71 - - [24/Feb/2019 18:15:29] "GET /security HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:15:30] "GET /static/js/security.js HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:15:30] "GET /static/audio/alarm.mp3 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:15:30] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+91.73.126.71 - - [24/Feb/2019 18:15:30] "GET /socket.io/?EIO=3&transport=polling&t=1551032130421-0 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:15:31] "POST /socket.io/?EIO=3&transport=polling&t=1551032130757-1&sid=35600ed8949a4476ae471bf8d6e60a03 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:15:31] "GET /socket.io/?EIO=3&transport=polling&t=1551032130759-2&sid=35600ed8949a4476ae471bf8d6e60a03 HTTP/1.1" 200 -
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Recieved temp: 54
+Recieved humidity : 74
+Recieved carbon_dioxide : 98
+Recieved Power : 28
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 100
+Recieved temp: 100
+Recieved humidity : 69
+Recieved carbon_dioxide : 68
+Recieved humidity : 69
+Recieved Power : 24
+Motion Detected : True
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 67
+Recieved humidity : 42
+Recieved carbon_dioxide : 37
+Recieved Power : 99
+Recieved Power : 99
+Motion Detected : False
+intruder Detected : False
+windows Detected : False
+leak Detected : False
+Recieved temp: 91
+Recieved humidity : 53
+Recieved carbon_dioxide : 52
+Recieved Power : 81
+Motion Detected : False
+Recieved Power : 81
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 37
+Recieved humidity : 43
+Recieved carbon_dioxide : 27
+Recieved carbon_dioxide : 27
+Recieved Power : 11
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 54
+Recieved humidity : 81
+Recieved carbon_dioxide : 77
+Recieved humidity : 81
+Recieved Power : 80
+Motion Detected : False
+intruder Detected : False
+windows Detected : False
+leak Detected : True
+Recieved temp: 56
+Recieved humidity : 30
+Recieved temp: 56
+Recieved carbon_dioxide : 37
+Recieved Power : 54
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : True
+Recieved temp: 20
+Recieved humidity : 62
+Recieved carbon_dioxide : 67
+Recieved Power : 35
+Recieved carbon_dioxide : 67
+Motion Detected : True
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 24
+Recieved humidity : 100
+Recieved carbon_dioxide : 73
+Recieved Power : 79
+Motion Detected : False
+intruder Detected : False
+windows Detected : False
+leak Detected : False
+Recieved temp: 92
+Recieved humidity : 83
+Recieved carbon_dioxide : 51
+Recieved Power : 10
+Motion Detected : True
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 96
+Recieved humidity : 30
+Recieved carbon_dioxide : 65
+Recieved Power : 93
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : True
+Recieved temp: 39
+Recieved humidity : 86
+Recieved humidity : 86
+Recieved carbon_dioxide : 15
+Recieved Power : 54
+Recieved Power : 54
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : True
+Recieved temp: 18
+Recieved temp: 18
+Recieved humidity : 54
+Recieved carbon_dioxide : 78
+Recieved Power : 10
+Recieved carbon_dioxide : 78
+Motion Detected : False
+intruder Detected : False
+windows Detected : False
+leak Detected : True
+Recieved temp: 77
+Recieved humidity : 49
+Recieved humidity : 49
+Recieved carbon_dioxide : 95
+Recieved Power : 59
+Motion Detected : True
+Recieved Power : 59
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 82
+Recieved humidity : 34
+Recieved carbon_dioxide : 64
+Recieved Power : 16
+Motion Detected : True
+Recieved Power : 16
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 18
+Recieved humidity : 72
+Recieved carbon_dioxide : 46
+Recieved Power : 95
+Recieved carbon_dioxide : 46
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : True
+Recieved temp: 28
+Recieved humidity : 36
+Recieved carbon_dioxide : 60
+Recieved humidity : 36
+Recieved carbon_dioxide : 60
+Recieved Power : 88
+Motion Detected : False
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 43
+Recieved humidity : 95
+Recieved carbon_dioxide : 29
+Recieved humidity : 95
+Recieved Power : 22
+Motion Detected : False
+intruder Detected : False
+windows Detected : False
+leak Detected : False
+Recieved temp: 64
+Recieved humidity : 54
+Recieved carbon_dioxide : 68
+Recieved Power : 54
+Motion Detected : False
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 98
+Recieved humidity : 68
+Recieved carbon_dioxide : 56
+Recieved carbon_dioxide : 56
+Recieved Power : 71
+Motion Detected : False
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 91
+Recieved humidity : 53
+Recieved carbon_dioxide : 67
+Recieved humidity : 53
+Recieved Power : 97
+Motion Detected : True
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 35
+Recieved temp: 35
+Recieved humidity : 38
+Recieved carbon_dioxide : 29
+Recieved Power : 24
+Motion Detected : False
+intruder Detected : True
+windows Detected : True
+leak Detected : True
+Recieved temp: 59
+Recieved humidity : 33
+Recieved carbon_dioxide : 18
+Recieved carbon_dioxide : 18
+Recieved Power : 82
+Motion Detected : False
+intruder Detected : True
+windows Detected : True
+leak Detected : True
+Recieved temp: 42
+Recieved humidity : 14
+Recieved carbon_dioxide : 62
+Recieved Power : 11
+Motion Detected : False
+intruder Detected : True
+windows Detected : False
+leak Detected : True
+Recieved temp: 88
+Recieved humidity : 79
+Recieved carbon_dioxide : 57
+Recieved Power : 50
+Motion Detected : True
+intruder Detected : False
+windows Detected : True
+leak Detected : False
+Recieved temp: 33
+Recieved humidity : 32
+Recieved carbon_dioxide : 83
+Recieved Power : 52
+Motion Detected : True
+intruder Detected : True
+Client disconnected
+windows Detected : True
+leak Detected : False
+Recieved temp: 85
+Recieved humidity : 34
+Recieved carbon_dioxide : 15
+Recieved Power : 49
+Motion Detected : False
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 98
+Recieved humidity : 15
+Recieved carbon_dioxide : 39
+Recieved Power : 79
+Motion Detected : False
+intruder Detected : False
+windows Detected : False
+leak Detected : False
+Recieved temp: 75
+Recieved humidity : 71
+Recieved carbon_dioxide : 23
+Recieved carbon_dioxide : 23
+Recieved Power : 74
+Motion Detected : True
+intruder Detected : False
+windows Detected : True
+leak Detected : True
+Recieved temp: 99
+Recieved humidity : 22
+Recieved carbon_dioxide : 92
+Recieved Power : 48
+Motion Detected : False
+Recieved Power : 48
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Recieved temp: 19
+Recieved humidity : 16
+Recieved carbon_dioxide : 57
+Recieved Power : 97
+Motion Detected : True
+intruder Detected : False
+windows Detected : False
+leak Detected : True
+Recieved temp: 95
+Recieved humidity : 93
+Recieved carbon_dioxide : 44
+Recieved Power : 63
+Motion Detected : False
+intruder Detected : True
+windows Detected : False
+leak Detected : False
+Recieved temp: 29
+Recieved humidity : 50
+Recieved carbon_dioxide : 25
+Client disconnected
+Recieved Power : 46
+Motion Detected : False
+intruder Detected : True
+windows Detected : False
+leak Detected : True
+Recieved temp: 96
+Recieved temp: 96
+Recieved humidity : 86
+Recieved carbon_dioxide : 36
+Recieved Power : 27
+Motion Detected : False
+intruder Detected : True
+windows Detected : True
+leak Detected : False
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Client disconnected
+Recieved temp: 13
+Recieved humidity : 36
+Recieved carbon_dioxide : 17
+Recieved Power : 54
+Motion Detected : True
+intruder Detected : False
+windows Detected : True
+leak Detected : False
+Recieved temp: 57
+Recieved humidity : 73
+Recieved carbon_dioxide : 21
+Recieved Power : 97
+Motion Detected : False
+intruder Detected : True
+windows Detected : False
+leak Detected : False
+Recieved temp: 96
+Recieved humidity : 82
+Recieved carbon_dioxide : 96
+Recieved Power : 69
+Motion Detected : False
+intruder Detected : True
+windows Detected : False
+leak Detected : False
+Recieved temp: 37
+Recieved temp: 37
+Recieved humidity : 67
+Recieved carbon_dioxide : 64
+Recieved Power : 16
+Motion Detected : True
+intruder Detected : False
+windows Detected : False
+leak Detected : True
+Recieved temp: 42
+Recieved humidity : 14
+Recieved carbon_dioxide : 79
+Recieved carbon_dioxide : 79
+Client disconnected
+Client disconnected
+Client disconnected91.73.126.71 - - [24/Feb/2019 18:16:31] "GET /socket.io/?EIO=3&transport=polling&t=1551032131097-3&sid=35600ed8949a4476ae471bf8d6e60a03 HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:17:55] "POST /socket.io/?EIO=3&transport=polling&t=1551032195201-4&sid=35600ed8949a4476ae471bf8d6e60a03 HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:17:55] "POST /socket.io/?EIO=3&transport=polling&t=1551032275385-5&sid=35600ed8949a4476ae471bf8d6e60a03 HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:20:33] "GET /socket.io/?EIO=3&transport=polling&t=1551032276896-6 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:36] "GET /socket.io/?EIO=3&transport=polling&t=1551032299864-7 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:37] "GET /energy HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:38] "GET /static/js/pwr.js HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:38] "GET /socket.io/?EIO=3&transport=polling&t=1551032438099-0 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:38] "POST /socket.io/?EIO=3&transport=polling&t=1551032438453-1&sid=c21f333a170140578ae8196d89456cfe HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:38] "GET /socket.io/?EIO=3&transport=polling&t=1551032438456-2&sid=c21f333a170140578ae8196d89456cfe HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:50] "GET / HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:50] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.126.71 - - [24/Feb/2019 18:20:55] "GET /climate HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:55] "GET /climate HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:55] "GET /static/js/climate.js HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:55] "GET /static/img/temp-icon.png HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:55] "GET /static/img/humidity-icon.png HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:56] "GET /socket.io/?EIO=3&transport=polling&t=1551032456068-0 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:56] "POST /socket.io/?EIO=3&transport=polling&t=1551032456407-1&sid=3032ac26ff274e27a940f43bf4b2c20b HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:20:56] "GET /socket.io/?EIO=3&transport=polling&t=1551032456412-2&sid=3032ac26ff274e27a940f43bf4b2c20b HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:21:38] "GET /socket.io/?EIO=3&transport=polling&t=1551032438818-3&sid=c21f333a170140578ae8196d89456cfe HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:21:57] "GET /socket.io/?EIO=3&transport=polling&t=1551032456765-3&sid=3032ac26ff274e27a940f43bf4b2c20b HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:23:53] "POST /socket.io/?EIO=3&transport=polling&t=1551032481492-4&sid=3032ac26ff274e27a940f43bf4b2c20b HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:23:55] "POST /socket.io/?EIO=3&transport=polling&t=1551032633360-5&sid=3032ac26ff274e27a940f43bf4b2c20b HTTP/1.1" 400 -
+91.73.126.71 - - [24/Feb/2019 18:23:55] "GET /socket.io/?EIO=3&transport=polling&t=1551032635360-6 HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:23:56] "POST /socket.io/?EIO=3&transport=polling&t=1551032635905-7&sid=572106a9f7ce4aaab380b5c42bfbbdee HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:23:56] "GET /socket.io/?EIO=3&transport=polling&t=1551032635907-8&sid=572106a9f7ce4aaab380b5c42bfbbdee HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:24:21] "POST /socket.io/?EIO=3&transport=polling&t=1551032661360-10&sid=572106a9f7ce4aaab380b5c42bfbbdee HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:24:21] "GET /socket.io/?EIO=3&transport=polling&t=1551032636295-9&sid=572106a9f7ce4aaab380b5c42bfbbdee HTTP/1.1" 200 -
+91.73.126.71 - - [24/Feb/2019 18:25:21] "GET /socket.io/?EIO=3&transport=polling&t=1551032661701-11&sid=572106a9f7ce4aaab380b5c42bfbbdee HTTP/1.1" 400 -
+178.128.194.144 - - [24/Feb/2019 23:17:08] "GET / HTTP/1.1" 200 -
+193.188.22.56 - - [25/Feb/2019 09:28:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+193.188.22.56 - - [25/Feb/2019 09:28:19] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET / HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:50] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.126.71 - - [25/Feb/2019 13:02:51] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:51] "GET /static/js/application.js HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:51] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:51] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:51] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.126.71 - - [25/Feb/2019 13:02:52] "GET /favicon.ico HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET /static/css/main.css HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET /static/js/application.js HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:04] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:05] "GET /static/img/security-img.png HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:05] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:05] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:06] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:06] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:06] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:07] "GET /favicon.ico HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:14] "GET /climate HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:14] "GET /static/js/climate.js HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:14] "GET /static/img/temp-icon.png HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:14] "GET /static/img/humidity-icon.png HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:15] "GET /socket.io/?EIO=3&transport=polling&t=1551167414485-0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:15] "POST /socket.io/?EIO=3&transport=polling&t=1551167414897-1&sid=ec81d65970914a4a8fc8e4338d9e54f0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:15] "GET /socket.io/?EIO=3&transport=polling&t=1551167414899-2&sid=ec81d65970914a4a8fc8e4338d9e54f0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:26] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:27] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:27] "GET /favicon.ico HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:28] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:33] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:34] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:35] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:35] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:36] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:36] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:37] "GET /security HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:37] "GET /static/js/security.js HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:37] "GET /static/audio/alarm.mp3 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:38] "GET /socket.io/?EIO=3&transport=polling&t=1551167437607-0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:38] "POST /socket.io/?EIO=3&transport=polling&t=1551167438076-1&sid=9eb921ab6d6340e48c66951ec1ff6f96 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:38] "GET /socket.io/?EIO=3&transport=polling&t=1551167438079-2&sid=9eb921ab6d6340e48c66951ec1ff6f96 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:40] "POST /socket.io/?EIO=3&transport=polling&t=1551167440036-4&sid=ec81d65970914a4a8fc8e4338d9e54f0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:40] "GET /socket.io/?EIO=3&transport=polling&t=1551167415319-3&sid=ec81d65970914a4a8fc8e4338d9e54f0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:44] "GET /security HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:44] "GET /socket.io/?EIO=3&transport=polling&t=1551167443784-0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:44] "POST /socket.io/?EIO=3&transport=polling&t=1551167444192-1&sid=c15117809a1a47ab99775b30c03631ed HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:44] "GET /socket.io/?EIO=3&transport=polling&t=1551167444193-2&sid=c15117809a1a47ab99775b30c03631ed HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:46] "GET / HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+91.73.94.199 - - [26/Feb/2019 07:50:51] "GET /energy HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:52] "GET /static/js/pwr.js HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:52] "GET /socket.io/?EIO=3&transport=polling&t=1551167451972-0 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:53] "POST /socket.io/?EIO=3&transport=polling&t=1551167452415-1&sid=de14b97e744e4b71a5e4a5e49de4e663 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:50:53] "GET /socket.io/?EIO=3&transport=polling&t=1551167452418-2&sid=de14b97e744e4b71a5e4a5e49de4e663 HTTP/1.1" 200 -
+91.73.94.199 - - [26/Feb/2019 07:51:39] "GET /socket.io/?EIO=3&transport=polling&t=1551167438504-3&sid=9eb921ab6d6340e48c66951ec1ff6f96 HTTP/1.1" 400 -
+91.73.94.199 - - [26/Feb/2019 07:51:41] "GET /socket.io/?EIO=3&transport=polling&t=1551167440507-5&sid=ec81d65970914a4a8fc8e4338d9e54f0 HTTP/1.1" 400 -
+91.73.94.199 - - [26/Feb/2019 07:51:45] "GET /socket.io/?EIO=3&transport=polling&t=1551167444610-3&sid=c15117809a1a47ab99775b30c03631ed HTTP/1.1" 400 -
+91.73.94.199 - - [26/Feb/2019 07:51:53] "GET /socket.io/?EIO=3&transport=polling&t=1551167452869-3&sid=de14b97e744e4b71a5e4a5e49de4e663 HTTP/1.1" 400 -
+123.108.44.138 - - [26/Feb/2019 08:42:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+123.108.44.138 - - [26/Feb/2019 08:42:45] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+191.96.110.17 - - [26/Feb/2019 08:43:30] "GET / HTTP/1.0" 200 -
+123.108.44.138 - - [26/Feb/2019 08:46:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+123.108.44.138 - - [26/Feb/2019 08:46:55] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+218.75.54.152 - - [26/Feb/2019 08:47:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+218.75.54.152 - - [26/Feb/2019 08:47:53] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+123.108.44.138 - - [26/Feb/2019 08:51:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+123.108.44.138 - - [26/Feb/2019 08:51:06] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+218.75.54.152 - - [26/Feb/2019 09:01:56] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+218.75.54.152 - - [26/Feb/2019 09:01:56] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+218.75.54.152 - - [26/Feb/2019 09:15:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+218.75.54.152 - - [26/Feb/2019 09:15:50] "  +&à     Cookie: mstshash=hello" HTTPStatus.BAD_REQUEST -
+122.228.19.79 - - [26/Feb/2019 13:45:53] "GET / HTTP/1.1" 200 -
+201.184.188.50 - - [27/Feb/2019 01:06:51] "GET / HTTP/1.1" 200 -
+201.184.188.50 - - [27/Feb/2019 01:06:52] "GET /HNAP1/ HTTP/1.1" 404 -
+141.98.80.29 - - [27/Feb/2019 16:16:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+141.98.80.29 - - [27/Feb/2019 16:16:51] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+141.98.80.29 - - [27/Feb/2019 16:22:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+141.98.80.29 - - [27/Feb/2019 16:22:53] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+173.72.101.149 - - [27/Feb/2019 22:54:14] code 400, message Bad HTTP/0.9 request type ('RFB')
+173.72.101.149 - - [27/Feb/2019 22:54:14] "RFB 003.003" HTTPStatus.BAD_REQUEST -
+191.96.110.13 - - [01/Mar/2019 09:46:01] "GET / HTTP/1.0" 200 -
+188.92.73.25 - - [01/Mar/2019 16:05:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+188.92.73.25 - - [01/Mar/2019 16:05:12] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+188.92.73.25 - - [01/Mar/2019 16:05:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+188.92.73.25 - - [01/Mar/2019 16:05:12] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+193.188.22.56 - - [01/Mar/2019 19:31:56] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+193.188.22.56 - - [01/Mar/2019 19:31:56] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+193.188.22.56 - - [01/Mar/2019 20:15:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+193.188.22.56 - - [01/Mar/2019 20:15:07] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+194.61.24.223 - - [02/Mar/2019 00:43:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.61.24.223 - - [02/Mar/2019 00:43:03] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+193.188.22.56 - - [02/Mar/2019 11:11:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+193.188.22.56 - - [02/Mar/2019 11:11:22] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+106.75.84.197 - - [02/Mar/2019 19:28:14] "GET / HTTP/1.0" 200 -
+120.52.152.20 - - [02/Mar/2019 23:57:25] "GET / HTTP/1.1" 200 -
+185.53.88.24 - - [03/Mar/2019 00:22:45] "HEAD /robots.txt HTTP/1.0" 404 -
+185.53.88.120 - - [03/Mar/2019 01:42:58] "GET / HTTP/1.1" 200 -
+194.63.140.52 - - [03/Mar/2019 13:47:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.63.140.52 - - [03/Mar/2019 13:47:08] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+107.170.195.48 - - [03/Mar/2019 14:13:42] "GET / HTTP/1.1" 200 -
+178.128.194.144 - - [04/Mar/2019 06:04:53] "GET / HTTP/1.1" 200 -
+185.222.211.158 - - [04/Mar/2019 14:39:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [04/Mar/2019 14:39:58] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [04/Mar/2019 14:39:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [04/Mar/2019 14:39:58] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.176.27.254 - - [04/Mar/2019 16:49:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.176.27.254 - - [04/Mar/2019 16:49:41] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.176.27.254 - - [04/Mar/2019 16:49:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.176.27.254 - - [04/Mar/2019 16:49:41] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [04/Mar/2019 18:41:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [04/Mar/2019 18:41:57] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [04/Mar/2019 18:41:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [04/Mar/2019 18:41:57] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [04/Mar/2019 19:10:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [04/Mar/2019 19:10:58] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [04/Mar/2019 19:10:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [04/Mar/2019 19:10:58] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+173.72.101.149 - - [05/Mar/2019 00:54:18] code 400, message Bad HTTP/0.9 request type ('RFB')
+173.72.101.149 - - [05/Mar/2019 00:54:18] "RFB 003.003" HTTPStatus.BAD_REQUEST -
+185.156.177.2 - - [05/Mar/2019 03:25:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.2 - - [05/Mar/2019 03:25:19] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.156.177.2 - - [05/Mar/2019 03:25:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.2 - - [05/Mar/2019 03:25:19] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [05/Mar/2019 05:14:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [05/Mar/2019 05:14:45] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [05/Mar/2019 05:14:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [05/Mar/2019 05:14:45] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [05/Mar/2019 05:40:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [05/Mar/2019 05:40:19] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [05/Mar/2019 05:40:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [05/Mar/2019 05:40:19] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [05/Mar/2019 06:53:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [05/Mar/2019 06:53:47] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.222.211.158 - - [05/Mar/2019 06:53:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.222.211.158 - - [05/Mar/2019 06:53:47] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+122.228.19.79 - - [05/Mar/2019 12:37:20] "GET / HTTP/1.1" 200 -
+198.108.67.48 - - [06/Mar/2019 03:14:51] "GET / HTTP/1.1" 200 -
+141.98.81.185 - - [06/Mar/2019 09:50:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+141.98.81.185 - - [06/Mar/2019 09:50:11] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+196.52.43.96 - - [06/Mar/2019 09:55:29] "GET / HTTP/1.0" 200 -
+69.175.97.170 - - [06/Mar/2019 14:07:42] "GET / HTTP/1.1" 200 -
+185.156.177.185 - - [07/Mar/2019 03:43:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.185 - - [07/Mar/2019 03:43:33] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.156.177.185 - - [07/Mar/2019 03:43:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.156.177.185 - - [07/Mar/2019 03:43:33] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+46.161.27.51 - - [07/Mar/2019 11:31:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+46.161.27.51 - - [07/Mar/2019 11:31:08] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET / HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET /static/css/main.css HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 404 -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET /static/img/security-img.png HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET /static/img/cctv-img.png HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:37] "GET /static/img/energy-consumption-img.png HTTP/1.1" 200 -
+162.243.69.215 - - [07/Mar/2019 12:07:37] "GET / HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:38] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:38] "GET /static/js/application.js HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:38] "GET /static/img/temp-hum.png HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:39] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:39] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:39] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+159.203.81.93 - - [07/Mar/2019 12:07:39] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 200 -
+162.243.69.215 - - [07/Mar/2019 12:07:39] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:40] "GET /favicon.ico HTTP/1.1" 404 -
+159.203.42.143 - - [07/Mar/2019 12:07:40] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:41] "GET /security HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:41] "GET /static/js/security.js HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:41] "GET /static/audio/alarm.mp3 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:41] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+5.31.182.128 - - [07/Mar/2019 12:07:42] "GET /socket.io/?EIO=3&transport=polling&t=1551960461562-0 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:42] "POST /socket.io/?EIO=3&transport=polling&t=1551960461933-1&sid=f59964cc45364dd3845cc5b895cd5d52 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:42] "GET /socket.io/?EIO=3&transport=polling&t=1551960461941-2&sid=f59964cc45364dd3845cc5b895cd5d52 HTTP/1.1" 200 -
+138.197.202.197 - - [07/Mar/2019 12:07:42] "GET /socket.io HTTP/1.1" 404 -
+5.31.182.128 - - [07/Mar/2019 12:07:43] "GET /energy HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:44] "GET /static/js/pwr.js HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:44] "GET /socket.io/?EIO=3&transport=polling&t=1551960464272-0 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:48] "GET /climate HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:49] "GET /static/img/temp-icon.png HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:49] "GET /static/js/climate.js HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:49] "GET /static/img/humidity-icon.png HTTP/1.1" 200 -
+159.203.196.79 - - [07/Mar/2019 12:07:49] "GET /climate HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:49] "GET /socket.io/?EIO=3&transport=polling&t=1551960469424-0 HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:50] "POST /socket.io/?EIO=3&transport=polling&t=1551960469796-1&sid=c653a1502e9a41aa8db663f7df8f73be HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:07:50] "GET /socket.io/?EIO=3&transport=polling&t=1551960469798-2&sid=c653a1502e9a41aa8db663f7df8f73be HTTP/1.1" 200 -
+5.31.182.128 - - [07/Mar/2019 12:08:42] "GET /socket.io/?EIO=3&transport=polling&t=1551960462385-3&sid=f59964cc45364dd3845cc5b895cd5d52 HTTP/1.1" 400 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /security HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /security HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /static/css/main.css HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /static/css/materialize.min.css HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /static/js/security.js HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /static/js/materialize.min.js HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:22] "GET /static/css/materialize.min.css HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/css/main.css HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/js/security.js HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/js/materialize.min.js HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/audio/alarm.mp3 HTTP/1.1" 206 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /socket.io/?EIO=3&transport=polling&t=1551967703365-0 HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/audio/alarm.mp3 HTTP/1.1" 304 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:23] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:24] "POST /socket.io/?EIO=3&transport=polling&t=1551967703803-1&sid=74a70d3c2e48425d9feed8ef4f25794d HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:24] "GET /socket.io/?EIO=3&transport=polling&t=1551967703806-2&sid=74a70d3c2e48425d9feed8ef4f25794d HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:24] "GET /favicon.ico HTTP/1.1" 404 -
+5.38.3.129 - - [07/Mar/2019 14:08:24] "GET /socket.io/?EIO=3&transport=polling&t=1551967704529-0 HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:25] "POST /socket.io/?EIO=3&transport=polling&t=1551967704888-1&sid=6a6fb96f1caf496a9ecaac6593030f5d HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:08:25] "GET /socket.io/?EIO=3&transport=polling&t=1551967704894-2&sid=6a6fb96f1caf496a9ecaac6593030f5d HTTP/1.1" 200 -
+5.38.3.129 - - [07/Mar/2019 14:09:24] "GET /socket.io/?EIO=3&transport=polling&t=1551967704275-3&sid=74a70d3c2e48425d9feed8ef4f25794d HTTP/1.1" 400 -
+5.38.3.129 - - [07/Mar/2019 14:09:25] "GET /socket.io/?EIO=3&transport=polling&t=1551967705334-3&sid=6a6fb96f1caf496a9ecaac6593030f5d HTTP/1.1" 400 -
+185.153.196.92 - - [07/Mar/2019 17:39:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.153.196.92 - - [07/Mar/2019 17:39:40] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
+185.153.196.92 - - [07/Mar/2019 17:39:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+185.153.196.92 - - [07/Mar/2019 17:39:40] "  *%à     Cookie: mstshash=Test" HTTPStatus.BAD_REQUEST -
